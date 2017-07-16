@@ -3,6 +3,8 @@ import pythonwhois
 import json
 import sys
 
+#Usage: python [whois.py] [result.txt]
+
 f_domain = open('domain.txt','r') #input domain
 domain_data = f_domain.read().split()
 
